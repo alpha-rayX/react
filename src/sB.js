@@ -3,10 +3,15 @@ import React from 'react';
 
 const SBox = ({ searchfield, searchChange}) => {
   return (
-      <input type='search'  
+    <div className="p-2">
+        <input 
+      className="p-3 border border-green-500 bg-blue-100"
+      type='search'  
       placeholder="search robots" 
       onChange = {searchChange}
       />
+    </div>
+      
 
   );
 }
